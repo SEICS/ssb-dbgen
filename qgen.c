@@ -5,6 +5,8 @@
  */
 #define DECLARER
 
+#include <getopt.h>
+#include <unistd.h>
 #include <stdio.h>
 #include <string.h>
 #if (defined(_POSIX_)||!defined(WIN32))
